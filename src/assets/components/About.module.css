@@ -1,0 +1,66 @@
+.wrapper{
+    margin-top: 8rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:7rem;
+}
+.benefitheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.2rem;
+}
+.benefits button{
+    background-color: rgb(97, 177, 231);
+    margin:0;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    height: 2rem;
+    width: 8rem;
+    cursor: pointer;
+
+
+}
+
+.benefitname{
+    color: rgb(97, 177, 231);
+}
+.mainbenefitheader{
+    font-size: 2rem;
+    font-weight: bold;
+    color:rgb(35, 16, 88);
+    min-width: 3ch;
+    
+}
+.mainbenefitheader span:nth-last-of-type(1){
+    color:rgb(97, 177, 231);
+}
+.secondbenefitheader{
+    font-size: .8rem;
+}
+@media (max-width:700px) {
+    .container{
+        justify-content: center;
+    }
+    .mainbenefitheader{
+        max-width: 15rem;
+    }
+    .secondbenefitheader{
+        max-width: 15rem;
+    }
+    .benefitheader{
+       justify-content: center;
+    }
+    .wrapper{
+        margin-top: 24rem;
+    }
+}
